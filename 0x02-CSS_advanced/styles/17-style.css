@@ -41,7 +41,6 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
-    padding: var(--section-body-padding);
 }
 h1, h2, h3, h4, h5, h6{
     font-family: var(--font-family-title);
@@ -72,6 +71,9 @@ a:active {
 .section-header{
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
+}
+.section-body {
+  padding: var(--section-body-padding);
 }
 .section-footer{
   padding: var(--section-footer-padding);
