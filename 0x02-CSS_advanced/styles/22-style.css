@@ -44,18 +44,18 @@ html {
     font-size: 62.5%;
 }
 
-[data-section-theme = "dark"] {
-  --text-color: var(--color-white);
-  --section-title-color:var(--color-white);
-  background-color: var(--color-black);
-}
-
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
+}
+
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color:var(--color-white);
+  background-color: var(--color-black);
 }
 
 .navbar-menu {
