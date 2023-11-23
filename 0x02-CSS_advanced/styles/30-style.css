@@ -238,7 +238,7 @@ a:active {
   overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img{
   height: 30rem;
   width: 100%;
   object-fit: cover;
@@ -264,19 +264,14 @@ a:active {
   height: 100%;
   position: relative;
 }
-.card-work a {
+.card-work .card-title a {
   display: block;
   text-decoration: none;
   padding-top: 45%;
 }
 
-.card-title a {
-  display: block;
-  text-decoration: none;
-  padding-top: 45%;
-}
 
-.card-title a::after {
+.card-work .card-title a::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -285,14 +280,6 @@ a:active {
   content: "";
 }
 
-.card-work a::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content: "";
-}
 .card-work:hover .card-title {
   opacity: 1;
 }
