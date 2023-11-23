@@ -4,8 +4,8 @@
     margin-right: $right;
 }
 body {
-    @include margins(10px, 15px);
+    @include margins(10px, 10px);
 }
 div {
-    @include margins(10, 15px);
+    @include margins(15px, 15px);
 }
