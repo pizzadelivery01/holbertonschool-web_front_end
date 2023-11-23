@@ -1,11 +1,11 @@
 /* mixing margin*/
-@mixin margins {
-    margin-left: 10px;
-    margin-right: 15px;
+@mixin margins($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
 }
 body {
-    @include margins();
+    @include margins(10px, 15px);
 }
 div {
-    @include margins();
+    @include margins(10, 15px);
 }
