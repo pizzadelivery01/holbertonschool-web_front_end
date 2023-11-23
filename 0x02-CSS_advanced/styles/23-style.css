@@ -201,9 +201,10 @@ a:active {
 
 .social-link {
   display: block;
-  &.svg {
-    fill: var(--text-color);
-  }
+}
+
+.social-link > svg {
+  fill: var(--text-color);
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
